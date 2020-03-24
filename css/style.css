@@ -1,14 +1,113 @@
 body {
-    background: grey;
+    background: #464f54;
+    overflow-x: hidden;
+    font-family: Lora, sans-serif;
+    
 }
+
+header {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 800px;
+    top: -20px;
+}
+
 .header-box {
-    display: flex;
-    flex-direction: column;
     background: black;
     font-size: 24px;
     color: grey;
-    margin: 20px 20px;
-    width: 500px;
-    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 65px;
+}
 
+input {
+    color: white;
+    background: black;
+    border: none;
+    font-size: 30px;
+}
+
+
+.header-box p {
+    color: #3e3e3e;
+    margin-top: 13px;
+}
+
+hr {
+    border: .5px solid grey;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5bc2c;
+    padding: 20px 40px;
+    margin-left: 20px;
+}
+
+.icons img {
+    padding-right: 35px;
+}
+
+.icons img:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+main {
+    background: #ffffff;
+    margin: 70px 70px;
+    position: relative;
+    padding-top: 200px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 45px;
+    position: relative;
+    border-left: 2px solid grey; 
+}
+
+.content {
+    border-left: 2px solid #e8eced;
+    padding-left: 15px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+.author p {
+    color: #b9b9b9;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+h1 {
+    font-size: 70px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.question > p {
+    font-size: 27px;
+    font-style: italic;
+    padding-top: 18px;
+    padding-bottom: 50px;
+    color: #8f8f8f;
+}
+
+.text-1, .text-2 {
+    font-size: 27px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.text-1 {
+    margin-bottom: 43px;
+}
+
+span {
+    font-style: italic;
 }
